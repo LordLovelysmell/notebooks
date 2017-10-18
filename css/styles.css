@@ -1,0 +1,360 @@
+* {
+	padding: 0;
+	margin: 0;
+	color: #3e4444;
+
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25rem;
+	overflow-x: hidden;
+}
+
+.selector-for-some-widget {
+	-webkit-box-sizing: content-box;
+	        box-sizing: content-box;
+}
+
+.top-bar {
+	padding: 15px 0;
+	background: #e63946;
+}
+
+.logotype {
+	font-size: 2rem;
+	margin-bottom: 0rem;
+	font-family: 'Neucha';
+}
+
+.phone {
+	text-align: end;
+	padding-right: 25px;
+	font-size: 1.55rem;
+	margin-bottom: 0rem;
+	line-height: 50px;
+}
+
+.call-back-btn {
+	display: block;
+	font-size: 1.25rem;
+	text-align: center;
+	border-radius: 20px;
+	padding: 10px 15px;
+	background: #fff;
+	border: 2px solid #3e4444;
+	width: 250px;
+}
+
+.social-networks-section {
+	position: relative;
+	padding-top: 0px;
+	padding-right: 0px;
+}
+
+.social-icon {
+	width: 50px;
+	padding-right: 5%;
+}
+
+.header-bg {
+	min-height: 500px;
+	background: #f1faee;
+	padding-bottom: 50px;
+}
+
+.main-headline {
+	padding: 25px 15px 0;
+	font-size: 4rem;
+	font-family: 'Neucha';
+	text-align: center;
+}
+
+h2.main-headline {
+	padding: 0px 15px 0px 15px;
+	font-size: 3.5rem;
+	font-family: 'Neucha';
+	text-align: center;
+}
+
+.second-type {
+	color: white;
+}
+
+.special-rotation {
+	-webkit-transform: rotate(-7deg);
+	    -ms-transform: rotate(-7deg);
+	        transform: rotate(-7deg);
+}
+
+.main-image {
+	display: block;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+
+.main-btn {
+	display: block;
+	font-size: 1.25rem;
+	text-align: center;
+	border-radius: 20px;
+	padding: 10px 15px;
+	background: #e63946;
+	color: white;
+	width: 280px;
+	margin: 0 auto;
+}
+
+#advantages {
+	background: #a8dadc;
+	padding: 25px;
+}
+
+.separator {
+	width: 30%;
+	height: 7px;
+	background: #457b9d;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+}
+
+.option {
+	text-align: center;
+	font-size: 2rem;
+	font-family: 'Bad Script', sans-serif;
+	color: #1d3557;
+}
+
+.description {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#guaratee {
+	background: #f1faee;
+	padding: 25px 0;
+}
+
+.round {
+	border-radius: 50%;
+	background: #1d3557;
+	color: white;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 100px;
+	margin-bottom: 10px;
+}
+
+#window-parallax {
+	min-height: 667px;
+	background: transparent;
+	background-size: cover;
+}
+
+#reviews {
+	background: #e7e5df;
+	padding-top: 25px;
+}
+
+.review {
+	padding: 15px;
+	font-size: 1.25rem;
+	-webkit-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	        transform: rotate(0deg);
+}
+
+.red-letter {
+	padding-right: 15px;
+	color: #e63946;
+	font-size: 2.5rem;
+	font-family: 'Bad Script', sans-serif
+}
+
+.faq {
+	background: #a8dadc;
+	padding-top: 25px;
+}
+
+.question {
+	background-color: #457b9d;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.odd {
+	background-color: #1d3557;
+}
+
+.answer {
+	font-size: 1.45rem;
+	padding-bottom: 15px;
+	border-bottom: 3px dashed #1d3557;
+}
+
+.call-to-action {
+	background: #f1faee;
+	padding: 50px 0;
+}
+
+.call-to-action-btn {
+	display: block;
+	font-size: 2rem;
+	text-align: center;
+	border-radius: 20px;
+	padding: 10px 15px;
+	background: #e63946;
+	color: white;
+	width: 60%;
+	margin: 0 auto;
+}
+
+footer {
+	background: #393e41;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-top: 3px dashed #f1faee;
+	padding-bottom: 15px;
+}
+
+.footer-text {
+	padding: 30px 0 0 0;
+	color: #e7e5df;
+	text-align: center;
+}
+
+.copyright {
+	text-align: center;
+	color: #e7e5df;
+}
+
+@media (min-width: 576px) {
+	
+	.call-back-btn {
+		float: right;
+	}
+
+	.social-networks-section {
+		position: absolute;
+		top: -50px;
+	}
+
+	.special-rotation {
+		-webkit-transform: rotate(0deg);
+		    -ms-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+}
+
+@media screen and (max-width: 575px) {
+
+	.logotype {
+		text-align: center;
+	}
+
+	.phone {
+		text-align: center;
+		font-weight: bold;
+		font-size: 1.15rem;
+		padding: 0;
+	}
+
+	.call-back-btn {
+		width: 200px;
+		margin: 0 auto;
+	}
+
+	.main-headline {
+		padding-top: 25px;
+		font-size: 3rem;
+		margin: 0 auto;
+	}
+
+	.social-networks-section {
+		padding-top: 10px;
+		margin: 0 auto;
+		width: 200px;
+	}
+
+	#reviews {
+		background: #a8dadc;
+	}
+
+	.review {
+		padding: 15px;
+		font-size: 1.25rem;
+		-webkit-transform: rotate(0deg);
+		    -ms-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+
+	.special-rotation {
+		-webkit-transform: rotate(0deg);
+		    -ms-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+
+	.guarantee-desc {
+		padding-bottom: 25px;
+	}
+
+	.call-to-action-btn {
+		display: block;
+		font-size: 1.35rem;
+		text-align: center;
+		border-radius: 20px;
+		padding: 10px 15px;
+		background: #e63946;
+		color: white;
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	footer {
+		font-size: 1rem;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+	
+}
+
+@media (min-width: 992px) and (max-width: 1441px) {
+	
+}
+
+@media screen and (min-width: 1900px) {
+
+	#reviews {
+		background: url('../img/review-img.jpg') no-repeat center center;
+	 background-size: cover;
+	    height: 100vh;
+	    padding-top: 70px;
+	}
+
+	.review {
+		padding: 0px 150px 15px 100px;
+		font-size: 1.25rem;
+		-webkit-transform: rotate(-7deg);
+		    -ms-transform: rotate(-7deg);
+		        transform: rotate(-7deg);
+	}
+
+	.special-rotation {
+		-webkit-transform: rotate(-7deg);
+		    -ms-transform: rotate(-7deg);
+		        transform: rotate(-7deg);
+	}
+
+	.hide-xl {
+		display: none;
+	}
+}
+
+
